@@ -1,0 +1,501 @@
+candidate_id,source,role,assessment_score,communication_score,resume_score,interview_score,experience_years,final_score,application_stage,selected,days_in_pipeline,dropout_reason
+1,LinkedIn,Backend Engineer,69,60,72,66,1.9,66.3,Technical Interview,False,16,Low Assessment Score
+2,Referral,ML Engineer,74,67,74,71,3.1,71.7,Technical Interview,False,13,Low Assessment Score
+3,Referral,Frontend Engineer,73,72,77,73,1.2,72.8,HR Interview,False,23,Technical Rejection
+4,Campus,Backend Engineer,66,55,78,65,1.3,63.5,Technical Interview,False,15,Low Assessment Score
+5,Referral,Data Analyst,100,66,75,84,0.6,88.4,Hired,True,36,No Dropout
+6,Campus,ML Engineer,59,54,68,59,1.1,58.0,Technical Interview,False,13,Offer Declined
+7,Campus,ML Engineer,58,50,71,58,0.6,56.4,Assessment Cleared,False,7,Poor Communication
+8,Hackathon,Data Analyst,76,79,79,77,0.4,76.9,HR Interview,False,21,Technical Rejection
+9,Job Portal,Frontend Engineer,38,94,76,62,2.6,56.4,Assessment Cleared,False,5,Technical Rejection
+10,LinkedIn,Frontend Engineer,40,90,46,56,0.9,54.8,Assessment Cleared,False,10,Low Assessment Score
+11,Campus,Frontend Engineer,68,68,67,67,0.0,67.7,Technical Interview,False,18,Technical Rejection
+12,Hackathon,ML Engineer,84,81,54,77,1.0,81.3,HR Interview,False,25,Low Assessment Score
+13,Campus,Data Analyst,68,75,66,69,1.3,69.7,Technical Interview,False,18,Offer Declined
+14,Hackathon,ML Engineer,70,88,64,74,1.9,74.8,HR Interview,False,22,Salary Mismatch
+15,Job Portal,Frontend Engineer,71,72,63,69,2.9,70.6,Technical Interview,False,13,Low Assessment Score
+16,Referral,Backend Engineer,96,56,75,79,1.9,82.9,HR Interview,False,20,Poor Communication
+17,Job Portal,Frontend Engineer,66,72,61,66,2.0,67.2,Technical Interview,False,10,Offer Declined
+18,Campus,Backend Engineer,68,74,61,68,1.9,69.2,Technical Interview,False,13,Technical Rejection
+19,LinkedIn,Backend Engineer,61,57,73,62,1.5,60.5,Technical Interview,False,16,Poor Communication
+20,Job Portal,Backend Engineer,65,68,54,63,3.2,65.0,Technical Interview,False,16,Poor Communication
+21,Campus,ML Engineer,83,65,55,72,1.0,76.1,HR Interview,False,20,Technical Rejection
+22,LinkedIn,ML Engineer,74,69,75,72,0.6,72.4,HR Interview,False,19,Technical Rejection
+23,Hackathon,Data Analyst,80,65,68,73,0.6,74.9,HR Interview,False,25,Low Assessment Score
+24,LinkedIn,Frontend Engineer,58,59,79,62,2.4,59.4,Technical Interview,False,12,Poor Communication
+25,Campus,Data Analyst,80,83,66,78,0.0,80.0,HR Interview,False,22,Poor Communication
+26,Campus,Backend Engineer,83,57,74,73,2.3,74.8,HR Interview,False,21,Technical Rejection
+27,Job Portal,Data Analyst,84,57,77,74,2.2,75.6,HR Interview,False,23,Salary Mismatch
+28,Referral,Frontend Engineer,64,64,73,65,1.5,64.3,Technical Interview,False,10,Offer Declined
+29,Referral,Backend Engineer,67,87,75,74,0.0,73.1,HR Interview,False,19,Technical Rejection
+30,Job Portal,ML Engineer,72,64,78,70,3.3,69.8,Technical Interview,False,10,Offer Declined
+31,Referral,Data Analyst,87,81,68,81,1.7,84.0,HR Interview,False,25,Salary Mismatch
+32,Referral,ML Engineer,84,68,61,74,3.6,77.8,HR Interview,False,24,Low Assessment Score
+33,LinkedIn,Data Analyst,83,91,69,82,2.1,84.3,HR Interview,False,24,Offer Declined
+34,Hackathon,ML Engineer,72,83,90,78,1.5,76.0,HR Interview,False,23,Low Assessment Score
+35,Campus,Data Analyst,64,63,78,66,0.7,64.4,Technical Interview,False,16,Poor Communication
+36,Job Portal,Frontend Engineer,53,48,64,53,0.8,52.0,Assessment Cleared,False,5,Offer Declined
+37,Hackathon,Data Analyst,60,70,72,65,2.8,63.5,Technical Interview,False,11,Low Assessment Score
+38,Referral,Data Analyst,78,74,76,76,1.6,76.6,HR Interview,False,25,Technical Rejection
+39,Referral,Frontend Engineer,68,68,69,68,1.4,68.0,Technical Interview,False,13,Low Assessment Score
+40,Hackathon,ML Engineer,78,65,76,73,2.5,73.9,HR Interview,False,25,Technical Rejection
+41,Job Portal,ML Engineer,64,56,69,62,2.4,61.8,Technical Interview,False,17,Offer Declined
+42,LinkedIn,Data Analyst,71,77,72,73,1.2,72.8,HR Interview,False,20,Low Assessment Score
+43,Job Portal,Frontend Engineer,58,77,85,69,2.4,65.1,Technical Interview,False,10,Low Assessment Score
+44,Campus,Data Analyst,68,48,78,64,1.1,62.8,Technical Interview,False,13,Salary Mismatch
+45,Job Portal,Frontend Engineer,75,69,66,71,0.4,72.6,HR Interview,False,18,Technical Rejection
+46,Hackathon,Backend Engineer,83,73,73,78,0.9,79.5,HR Interview,False,21,Salary Mismatch
+47,Campus,Frontend Engineer,62,92,54,69,2.6,70.1,Technical Interview,False,18,Poor Communication
+48,LinkedIn,Backend Engineer,70,43,70,61,1.7,61.9,Technical Interview,False,12,Technical Rejection
+49,Referral,Frontend Engineer,70,51,76,65,2.9,64.7,Technical Interview,False,14,Salary Mismatch
+50,Hackathon,Frontend Engineer,57,77,82,68,2.3,64.3,Technical Interview,False,14,Salary Mismatch
+51,Hackathon,Frontend Engineer,70,64,69,68,1.3,68.2,Technical Interview,False,11,Offer Declined
+52,Referral,Frontend Engineer,83,78,62,77,0.2,80.2,HR Interview,False,24,Salary Mismatch
+53,Referral,Backend Engineer,74,78,70,74,0.0,74.8,HR Interview,False,25,Poor Communication
+54,Job Portal,ML Engineer,59,74,67,65,3.1,63.8,Technical Interview,False,10,Poor Communication
+55,Job Portal,Frontend Engineer,56,65,55,58,1.8,58.4,Technical Interview,False,11,Offer Declined
+56,Referral,Data Analyst,71,59,62,65,1.1,66.8,Technical Interview,False,15,Salary Mismatch
+57,Campus,ML Engineer,73,72,78,73,2.5,72.8,HR Interview,False,25,Technical Rejection
+58,Hackathon,Data Analyst,95,65,67,80,2.6,84.5,HR Interview,False,20,Low Assessment Score
+59,LinkedIn,Data Analyst,67,63,77,67,0.5,66.2,Technical Interview,False,14,Offer Declined
+60,Campus,ML Engineer,76,66,72,72,1.0,72.8,HR Interview,False,19,Poor Communication
+61,Referral,Data Analyst,84,71,61,75,1.1,78.7,HR Interview,False,24,Offer Declined
+62,Campus,Frontend Engineer,62,81,58,66,0.2,67.0,Technical Interview,False,13,Poor Communication
+63,Referral,ML Engineer,70,66,58,66,2.5,68.0,Technical Interview,False,10,Salary Mismatch
+64,Job Portal,Backend Engineer,54,47,72,55,0.0,52.9,Assessment Cleared,False,8,Salary Mismatch
+65,Referral,Backend Engineer,96,74,56,81,0.2,87.1,Hired,True,34,No Dropout
+66,Job Portal,Data Analyst,50,67,72,59,1.7,56.1,Assessment Cleared,False,10,Low Assessment Score
+67,Referral,Backend Engineer,94,67,69,80,1.8,84.4,HR Interview,False,25,Poor Communication
+68,Hackathon,Frontend Engineer,63,59,76,64,2.1,62.5,Technical Interview,False,11,Offer Declined
+69,Job Portal,Data Analyst,58,59,70,60,1.2,58.8,Technical Interview,False,14,Offer Declined
+70,Hackathon,Backend Engineer,64,57,65,62,1.9,62.0,Technical Interview,False,17,Poor Communication
+71,Campus,ML Engineer,79,63,68,72,0.9,73.7,HR Interview,False,22,Technical Rejection
+72,Job Portal,Backend Engineer,68,86,86,77,3.4,74.3,HR Interview,False,22,Offer Declined
+73,Job Portal,ML Engineer,58,69,74,64,3.0,62.0,Technical Interview,False,14,Technical Rejection
+74,Campus,Backend Engineer,65,76,41,63,0.0,66.6,Technical Interview,False,17,Salary Mismatch
+75,Hackathon,Frontend Engineer,62,70,75,67,3.2,65.1,Technical Interview,False,13,Salary Mismatch
+76,Job Portal,Frontend Engineer,51,77,80,64,0.0,60.1,Technical Interview,False,12,Offer Declined
+77,LinkedIn,Frontend Engineer,76,68,86,75,0.0,74.1,HR Interview,False,23,Low Assessment Score
+78,Campus,Frontend Engineer,84,64,77,76,0.6,77.6,HR Interview,False,21,Poor Communication
+79,LinkedIn,Frontend Engineer,90,65,68,78,1.0,81.4,HR Interview,False,18,Salary Mismatch
+80,LinkedIn,Data Analyst,61,76,70,67,2.7,65.8,Technical Interview,False,12,Technical Rejection
+81,Referral,Frontend Engineer,82,65,63,73,1.7,75.9,HR Interview,False,25,Technical Rejection
+82,Referral,Backend Engineer,66,71,59,66,0.6,67.0,Technical Interview,False,14,Poor Communication
+83,Job Portal,Frontend Engineer,74,74,65,72,2.3,73.4,HR Interview,False,22,Technical Rejection
+84,LinkedIn,Frontend Engineer,82,49,71,69,0.6,71.5,Technical Interview,False,13,Low Assessment Score
+85,LinkedIn,Data Analyst,70,65,66,67,2.0,68.1,Technical Interview,False,16,Poor Communication
+86,Hackathon,Data Analyst,46,63,73,56,0.7,52.4,Assessment Cleared,False,7,Low Assessment Score
+87,Referral,ML Engineer,89,55,93,79,1.1,79.2,HR Interview,False,24,Salary Mismatch
+88,Hackathon,Backend Engineer,55,72,64,61,0.1,60.2,Technical Interview,False,13,Technical Rejection
+89,Hackathon,Data Analyst,80,64,85,76,2.4,75.6,HR Interview,False,19,Low Assessment Score
+90,LinkedIn,Data Analyst,75,67,71,71,3.0,72.2,HR Interview,False,24,Offer Declined
+91,LinkedIn,Frontend Engineer,48,52,67,53,3.3,50.3,Assessment Cleared,False,8,Low Assessment Score
+92,Campus,Data Analyst,76,70,91,77,0.9,75.1,HR Interview,False,18,Salary Mismatch
+93,Referral,ML Engineer,78,61,75,72,0.2,72.8,HR Interview,False,23,Technical Rejection
+94,LinkedIn,Data Analyst,74,63,74,70,2.2,70.6,Technical Interview,False,10,Salary Mismatch
+95,Referral,Data Analyst,86,68,76,78,2.4,80.0,HR Interview,False,25,Salary Mismatch
+96,Hackathon,Backend Engineer,64,70,59,64,0.2,65.2,Technical Interview,False,17,Offer Declined
+97,Job Portal,Frontend Engineer,59,57,72,60,1.2,58.9,Technical Interview,False,12,Salary Mismatch
+98,Hackathon,Data Analyst,61,77,67,67,2.9,66.0,Technical Interview,False,11,Offer Declined
+99,Referral,Frontend Engineer,70,77,66,71,1.8,71.7,Technical Interview,False,14,Offer Declined
+100,LinkedIn,Backend Engineer,72,64,82,71,2.6,70.1,Technical Interview,False,10,Offer Declined
+101,Campus,Frontend Engineer,80,56,81,73,1.2,73.1,HR Interview,False,21,Offer Declined
+102,Referral,Backend Engineer,67,78,75,71,2.1,70.4,Technical Interview,False,18,Low Assessment Score
+103,Referral,Data Analyst,73,59,69,68,1.6,68.7,Technical Interview,False,16,Low Assessment Score
+104,LinkedIn,ML Engineer,60,75,74,67,2.4,65.1,Technical Interview,False,11,Poor Communication
+105,Hackathon,Backend Engineer,68,60,64,64,0.3,65.2,Technical Interview,False,14,Salary Mismatch
+106,Job Portal,Backend Engineer,61,82,56,66,1.6,66.7,Technical Interview,False,16,Poor Communication
+107,Campus,ML Engineer,70,51,68,63,2.1,64.1,Technical Interview,False,16,Offer Declined
+108,Hackathon,ML Engineer,50,67,71,59,1.1,56.1,Assessment Cleared,False,8,Salary Mismatch
+109,Hackathon,Frontend Engineer,56,61,66,59,1.8,57.9,Assessment Cleared,False,7,Low Assessment Score
+110,Job Portal,Backend Engineer,65,81,61,69,1.3,69.4,Technical Interview,False,15,Poor Communication
+111,LinkedIn,Backend Engineer,62,66,71,65,0.4,63.7,Technical Interview,False,11,Poor Communication
+112,Referral,ML Engineer,78,53,76,70,3.4,70.6,Technical Interview,False,17,Poor Communication
+113,Job Portal,Backend Engineer,48,70,73,59,0.0,55.7,Assessment Cleared,False,9,Offer Declined
+114,LinkedIn,Backend Engineer,63,74,54,64,0.0,65.5,Technical Interview,False,18,Technical Rejection
+115,Hackathon,Backend Engineer,52,73,65,60,0.6,58.6,Technical Interview,False,12,Low Assessment Score
+116,Campus,Backend Engineer,60,67,70,64,2.8,62.6,Technical Interview,False,18,Salary Mismatch
+117,Campus,Frontend Engineer,58,72,57,61,0.3,61.7,Technical Interview,False,15,Salary Mismatch
+118,Campus,ML Engineer,60,79,75,68,2.4,66.2,Technical Interview,False,11,Salary Mismatch
+119,Referral,Backend Engineer,69,59,64,65,2.4,65.8,Technical Interview,False,15,Poor Communication
+120,Referral,ML Engineer,97,76,82,87,2.7,89.8,Hired,True,37,No Dropout
+121,Referral,ML Engineer,84,81,56,77,0.0,81.3,HR Interview,False,23,Offer Declined
+122,Hackathon,Data Analyst,73,50,70,65,2.4,66.0,Technical Interview,False,15,Salary Mismatch
+123,Job Portal,Frontend Engineer,86,64,71,76,0.9,78.6,HR Interview,False,23,Technical Rejection
+124,LinkedIn,Data Analyst,76,70,59,70,2.0,73.0,HR Interview,False,25,Low Assessment Score
+125,Job Portal,Backend Engineer,55,73,67,62,1.8,60.7,Technical Interview,False,15,Poor Communication
+126,Referral,Backend Engineer,71,86,68,74,0.9,74.9,HR Interview,False,19,Salary Mismatch
+127,Referral,ML Engineer,58,63,65,60,1.4,59.6,Technical Interview,False,14,Poor Communication
+128,Job Portal,Frontend Engineer,86,75,58,77,1.5,81.1,HR Interview,False,20,Offer Declined
+129,LinkedIn,Data Analyst,70,78,68,72,1.1,72.2,HR Interview,False,18,Offer Declined
+130,LinkedIn,Frontend Engineer,79,67,85,76,1.7,75.7,HR Interview,False,23,Low Assessment Score
+131,Campus,Data Analyst,70,62,71,67,0.2,67.5,Technical Interview,False,12,Offer Declined
+132,LinkedIn,Data Analyst,76,84,75,78,0.8,78.2,HR Interview,False,25,Low Assessment Score
+133,Referral,Data Analyst,63,81,75,70,0.7,68.7,Technical Interview,False,16,Offer Declined
+134,Campus,ML Engineer,53,68,79,62,0.8,58.7,Technical Interview,False,16,Technical Rejection
+135,Referral,Data Analyst,74,71,65,71,0.6,72.5,HR Interview,False,20,Salary Mismatch
+136,Job Portal,Backend Engineer,61,46,62,56,0.7,56.5,Assessment Cleared,False,5,Low Assessment Score
+137,Referral,Frontend Engineer,81,68,71,75,0.4,76.6,HR Interview,False,20,Salary Mismatch
+138,Campus,Frontend Engineer,69,54,61,62,1.3,63.9,Technical Interview,False,11,Offer Declined
+139,Hackathon,Frontend Engineer,78,65,72,72,0.0,73.6,HR Interview,False,25,Low Assessment Score
+140,Referral,Backend Engineer,52,74,66,61,1.7,59.1,Technical Interview,False,15,Salary Mismatch
+141,Referral,ML Engineer,80,56,74,71,2.1,72.5,HR Interview,False,18,Technical Rejection
+142,Hackathon,Data Analyst,39,73,82,57,3.3,51.2,Assessment Cleared,False,7,Offer Declined
+143,Hackathon,Backend Engineer,80,74,79,78,2.1,78.2,HR Interview,False,20,Offer Declined
+144,Hackathon,Backend Engineer,80,57,68,70,2.2,72.4,HR Interview,False,22,Salary Mismatch
+145,Referral,Data Analyst,84,74,59,76,1.2,79.6,HR Interview,False,20,Technical Rejection
+146,LinkedIn,Backend Engineer,95,79,70,85,0.6,88.8,Hired,True,40,No Dropout
+147,Hackathon,Data Analyst,66,61,70,65,3.7,64.7,Technical Interview,False,17,Poor Communication
+148,Job Portal,Frontend Engineer,56,68,63,61,0.9,59.9,Technical Interview,False,15,Salary Mismatch
+149,Hackathon,Backend Engineer,67,78,69,70,2.4,70.1,Technical Interview,False,14,Poor Communication
+150,Referral,Data Analyst,94,61,71,79,2.2,82.9,HR Interview,False,22,Low Assessment Score
+151,LinkedIn,Frontend Engineer,38,67,71,53,2.6,48.3,Assessment Cleared,False,7,Technical Rejection
+152,LinkedIn,Backend Engineer,47,76,67,59,0.0,56.4,Assessment Cleared,False,5,Salary Mismatch
+153,Hackathon,Data Analyst,85,73,70,78,0.5,80.5,HR Interview,False,20,Offer Declined
+154,Campus,Data Analyst,57,64,77,63,2.8,60.2,Technical Interview,False,10,Poor Communication
+155,Campus,Frontend Engineer,61,67,73,65,1.1,63.4,Technical Interview,False,12,Technical Rejection
+156,Campus,Frontend Engineer,65,59,73,64,0.4,63.5,Technical Interview,False,14,Salary Mismatch
+157,Hackathon,ML Engineer,70,54,76,66,3.0,65.6,Technical Interview,False,12,Technical Rejection
+158,LinkedIn,ML Engineer,80,69,78,76,3.0,76.6,HR Interview,False,18,Technical Rejection
+159,Referral,Data Analyst,90,67,53,75,3.6,80.9,HR Interview,False,23,Technical Rejection
+160,Job Portal,ML Engineer,74,65,63,69,4.2,70.7,Technical Interview,False,13,Offer Declined
+161,Campus,Data Analyst,64,80,51,66,0.8,67.8,Technical Interview,False,12,Salary Mismatch
+162,LinkedIn,Data Analyst,85,61,69,74,0.7,76.9,HR Interview,False,22,Low Assessment Score
+163,Hackathon,ML Engineer,73,82,57,72,1.2,74.5,HR Interview,False,23,Low Assessment Score
+164,Referral,Backend Engineer,100,61,77,83,3.0,87.1,Hired,True,35,No Dropout
+165,Campus,Backend Engineer,72,65,60,67,0.8,69.1,Technical Interview,False,16,Offer Declined
+166,Job Portal,ML Engineer,93,58,86,81,0.4,82.4,HR Interview,False,23,Offer Declined
+167,Hackathon,Frontend Engineer,77,64,62,70,1.5,72.3,HR Interview,False,25,Poor Communication
+168,LinkedIn,Data Analyst,73,55,70,67,0.8,67.6,Technical Interview,False,18,Offer Declined
+169,LinkedIn,ML Engineer,83,66,70,75,1.4,77.2,HR Interview,False,22,Salary Mismatch
+170,Hackathon,Backend Engineer,72,77,71,73,3.3,73.3,HR Interview,False,24,Low Assessment Score
+171,Campus,Data Analyst,61,63,73,64,2.0,62.3,Technical Interview,False,16,Poor Communication
+172,Hackathon,Backend Engineer,58,66,57,60,3.5,60.2,Technical Interview,False,18,Poor Communication
+173,Campus,Frontend Engineer,74,72,66,71,1.2,72.7,HR Interview,False,25,Technical Rejection
+174,Job Portal,Frontend Engineer,50,62,66,56,0.6,54.2,Assessment Cleared,False,8,Technical Rejection
+175,LinkedIn,Backend Engineer,53,75,66,62,1.4,60.1,Technical Interview,False,10,Poor Communication
+176,Referral,Frontend Engineer,59,82,50,64,2.4,65.1,Technical Interview,False,11,Low Assessment Score
+177,Referral,Frontend Engineer,57,65,70,62,1.6,60.1,Technical Interview,False,17,Poor Communication
+178,Referral,Frontend Engineer,71,74,83,74,0.8,72.5,HR Interview,False,18,Poor Communication
+179,LinkedIn,Backend Engineer,59,61,61,60,0.0,59.7,Technical Interview,False,10,Poor Communication
+180,Hackathon,ML Engineer,73,50,88,69,4.4,67.2,Technical Interview,False,15,Salary Mismatch
+181,Referral,ML Engineer,68,72,58,67,0.9,68.5,Technical Interview,False,16,Salary Mismatch
+182,Job Portal,Data Analyst,60,58,68,61,2.2,59.9,Technical Interview,False,13,Poor Communication
+183,Job Portal,Backend Engineer,35,57,65,47,1.3,43.0,Applied,False,2,Offer Declined
+184,Campus,Backend Engineer,45,63,78,57,1.9,52.2,Assessment Cleared,False,9,Technical Rejection
+185,Hackathon,ML Engineer,48,70,58,56,4.1,54.8,Assessment Cleared,False,6,Poor Communication
+186,Hackathon,ML Engineer,65,72,66,67,2.4,67.0,Technical Interview,False,15,Salary Mismatch
+187,Hackathon,Frontend Engineer,51,71,67,60,0.0,57.7,Assessment Cleared,False,6,Low Assessment Score
+188,Hackathon,ML Engineer,72,66,58,67,1.0,69.3,Technical Interview,False,12,Poor Communication
+189,Job Portal,ML Engineer,47,68,67,57,0.7,54.2,Assessment Cleared,False,10,Salary Mismatch
+190,Referral,ML Engineer,74,56,79,69,0.8,68.9,Technical Interview,False,10,Low Assessment Score
+191,Job Portal,ML Engineer,69,61,69,66,1.3,66.5,Technical Interview,False,15,Offer Declined
+192,LinkedIn,Backend Engineer,57,65,84,64,1.7,60.7,Technical Interview,False,10,Low Assessment Score
+193,LinkedIn,ML Engineer,70,81,69,73,2.6,73.1,HR Interview,False,24,Technical Rejection
+194,Referral,ML Engineer,70,85,94,79,3.3,75.7,HR Interview,False,24,Technical Rejection
+195,Job Portal,Backend Engineer,52,56,85,59,2.7,54.9,Assessment Cleared,False,9,Poor Communication
+196,Hackathon,Frontend Engineer,69,90,67,74,0.6,74.7,HR Interview,False,20,Low Assessment Score
+197,Referral,ML Engineer,77,52,67,67,1.8,69.0,Technical Interview,False,13,Offer Declined
+198,Referral,Backend Engineer,44,67,79,57,1.9,52.5,Assessment Cleared,False,7,Salary Mismatch
+199,Job Portal,Frontend Engineer,67,80,65,70,2.0,70.5,Technical Interview,False,16,Poor Communication
+200,LinkedIn,Backend Engineer,68,77,71,71,0.8,70.7,Technical Interview,False,15,Low Assessment Score
+201,Campus,Frontend Engineer,61,74,73,67,2.1,65.4,Technical Interview,False,18,Low Assessment Score
+202,LinkedIn,Data Analyst,54,63,73,60,0.0,57.6,Assessment Cleared,False,7,Technical Rejection
+203,Referral,ML Engineer,74,62,69,69,2.4,70.1,Technical Interview,False,12,Offer Declined
+204,Campus,Frontend Engineer,70,58,83,69,0.8,67.3,Technical Interview,False,13,Poor Communication
+205,Campus,Backend Engineer,78,65,58,70,0.0,73.0,HR Interview,False,24,Salary Mismatch
+206,Campus,ML Engineer,60,68,63,63,2.1,62.5,Technical Interview,False,13,Salary Mismatch
+207,Job Portal,Data Analyst,76,76,60,72,0.7,74.8,HR Interview,False,21,Salary Mismatch
+208,LinkedIn,Frontend Engineer,66,63,67,65,2.4,65.1,Technical Interview,False,16,Offer Declined
+209,Hackathon,Frontend Engineer,60,61,86,65,0.4,61.7,Technical Interview,False,10,Low Assessment Score
+210,Referral,Data Analyst,85,79,58,77,0.8,81.4,HR Interview,False,19,Low Assessment Score
+211,Campus,ML Engineer,53,67,59,58,0.7,57.3,Assessment Cleared,False,7,Salary Mismatch
+212,LinkedIn,Frontend Engineer,79,74,74,76,1.4,77.1,HR Interview,False,23,Poor Communication
+213,Hackathon,Frontend Engineer,69,71,68,69,0.2,69.4,Technical Interview,False,10,Salary Mismatch
+214,LinkedIn,ML Engineer,87,60,58,73,1.3,77.4,HR Interview,False,25,Offer Declined
+215,Referral,ML Engineer,68,59,82,68,1.8,66.2,Technical Interview,False,16,Poor Communication
+216,Referral,Data Analyst,77,49,73,67,1.7,68.4,Technical Interview,False,15,Offer Declined
+217,LinkedIn,Data Analyst,63,57,77,63,1.3,61.8,Technical Interview,False,16,Salary Mismatch
+218,Job Portal,ML Engineer,72,53,66,65,3.1,66.1,Technical Interview,False,12,Poor Communication
+219,Campus,Backend Engineer,75,82,60,74,1.4,76.1,HR Interview,False,24,Offer Declined
+220,Hackathon,ML Engineer,59,64,74,63,2.3,61.2,Technical Interview,False,10,Offer Declined
+221,Referral,ML Engineer,89,44,59,69,1.5,74.0,HR Interview,False,25,Low Assessment Score
+222,Hackathon,Backend Engineer,75,61,76,71,1.7,71.0,Technical Interview,False,17,Technical Rejection
+223,LinkedIn,Data Analyst,73,49,58,62,3.2,64.9,Technical Interview,False,17,Low Assessment Score
+224,Referral,Data Analyst,79,66,68,72,3.9,74.3,HR Interview,False,21,Technical Rejection
+225,Campus,Frontend Engineer,71,72,71,71,2.3,71.2,Technical Interview,False,15,Salary Mismatch
+226,Campus,Data Analyst,41,57,50,47,1.3,46.0,Assessment Cleared,False,6,Poor Communication
+227,Referral,ML Engineer,83,75,70,78,3.8,79.9,HR Interview,False,22,Offer Declined
+228,Job Portal,Backend Engineer,48,52,79,55,2.3,50.9,Assessment Cleared,False,10,Salary Mismatch
+229,Hackathon,Backend Engineer,88,53,90,77,3.3,77.7,HR Interview,False,24,Offer Declined
+230,Referral,Frontend Engineer,74,86,63,75,2.8,76.7,HR Interview,False,18,Low Assessment Score
+231,Job Portal,Backend Engineer,81,81,69,78,1.5,80.1,HR Interview,False,22,Salary Mismatch
+232,LinkedIn,Data Analyst,69,77,74,72,1.1,71.5,Technical Interview,False,14,Low Assessment Score
+233,LinkedIn,Backend Engineer,71,71,60,68,0.7,70.1,Technical Interview,False,10,Offer Declined
+234,Referral,Frontend Engineer,87,72,69,78,0.9,81.3,HR Interview,False,20,Poor Communication
+235,Referral,Backend Engineer,75,67,64,70,0.5,71.9,Technical Interview,False,12,Poor Communication
+236,LinkedIn,Backend Engineer,73,71,68,71,0.4,72.0,HR Interview,False,21,Low Assessment Score
+237,Referral,Data Analyst,80,52,77,71,0.1,71.7,Technical Interview,False,18,Salary Mismatch
+238,LinkedIn,ML Engineer,64,68,57,63,1.5,64.5,Technical Interview,False,15,Offer Declined
+239,Hackathon,Frontend Engineer,60,79,71,67,0.0,65.9,Technical Interview,False,11,Poor Communication
+240,LinkedIn,Backend Engineer,81,64,66,72,3.3,74.9,HR Interview,False,19,Salary Mismatch
+241,LinkedIn,Data Analyst,93,78,75,84,1.4,87.3,Hired,True,38,No Dropout
+242,Referral,Backend Engineer,77,90,79,81,2.6,80.8,HR Interview,False,19,Poor Communication
+243,LinkedIn,ML Engineer,58,68,53,60,1.3,60.6,Technical Interview,False,15,Low Assessment Score
+244,LinkedIn,Data Analyst,73,60,83,71,2.2,69.8,Technical Interview,False,11,Technical Rejection
+245,Campus,Backend Engineer,52,68,65,59,2.2,57.3,Assessment Cleared,False,9,Low Assessment Score
+246,LinkedIn,ML Engineer,80,70,74,75,1.1,76.5,HR Interview,False,21,Poor Communication
+247,Job Portal,Data Analyst,64,71,62,65,2.5,65.7,Technical Interview,False,13,Low Assessment Score
+248,Job Portal,Data Analyst,66,59,78,66,2.2,64.6,Technical Interview,False,14,Offer Declined
+249,Campus,Frontend Engineer,88,67,68,77,0.0,80.5,HR Interview,False,24,Poor Communication
+250,Hackathon,Data Analyst,60,56,78,62,1.6,59.8,Technical Interview,False,14,Technical Rejection
+251,Referral,Frontend Engineer,72,68,84,73,1.5,71.5,Technical Interview,False,13,Offer Declined
+252,LinkedIn,Backend Engineer,52,67,60,58,2.5,56.8,Assessment Cleared,False,8,Salary Mismatch
+253,Campus,Frontend Engineer,62,52,67,60,2.4,59.4,Technical Interview,False,12,Low Assessment Score
+254,Referral,Frontend Engineer,65,70,47,62,0.8,65.1,Technical Interview,False,14,Low Assessment Score
+255,LinkedIn,ML Engineer,73,60,66,67,0.0,68.6,Technical Interview,False,12,Salary Mismatch
+256,Job Portal,Backend Engineer,60,61,72,62,1.5,60.8,Technical Interview,False,18,Offer Declined
+257,LinkedIn,ML Engineer,73,70,71,71,0.7,71.8,Technical Interview,False,15,Low Assessment Score
+258,LinkedIn,Backend Engineer,75,81,71,76,1.0,76.5,HR Interview,False,25,Poor Communication
+259,Hackathon,Frontend Engineer,78,58,83,73,1.8,72.5,HR Interview,False,20,Salary Mismatch
+260,Job Portal,ML Engineer,81,71,70,75,2.5,77.2,HR Interview,False,18,Salary Mismatch
+261,Job Portal,ML Engineer,49,74,71,60,0.6,57.3,Assessment Cleared,False,5,Technical Rejection
+262,Job Portal,Data Analyst,77,61,65,69,2.0,71.4,Technical Interview,False,13,Low Assessment Score
+263,Job Portal,Data Analyst,70,30,74,58,1.4,58.4,Technical Interview,False,18,Technical Rejection
+264,Job Portal,Data Analyst,99,55,73,80,2.3,84.5,HR Interview,False,18,Technical Rejection
+265,Hackathon,ML Engineer,65,65,88,69,1.3,66.2,Technical Interview,False,14,Low Assessment Score
+266,LinkedIn,Backend Engineer,70,74,69,71,1.5,71.1,Technical Interview,False,12,Salary Mismatch
+267,LinkedIn,Backend Engineer,81,80,72,78,2.0,79.9,HR Interview,False,23,Technical Rejection
+268,LinkedIn,Data Analyst,67,73,82,71,3.9,69.4,Technical Interview,False,15,Poor Communication
+269,Hackathon,ML Engineer,58,79,68,66,2.2,64.6,Technical Interview,False,16,Technical Rejection
+270,Campus,ML Engineer,64,64,61,63,1.5,63.7,Technical Interview,False,15,Low Assessment Score
+271,Campus,Frontend Engineer,76,68,67,71,0.5,72.9,HR Interview,False,18,Offer Declined
+272,Job Portal,ML Engineer,75,60,61,67,2.5,69.6,Technical Interview,False,13,Low Assessment Score
+273,LinkedIn,Data Analyst,79,68,76,75,2.2,75.6,HR Interview,False,19,Technical Rejection
+274,Hackathon,Frontend Engineer,69,57,62,63,0.2,64.8,Technical Interview,False,10,Poor Communication
+275,Referral,Frontend Engineer,70,52,69,64,0.6,64.6,Technical Interview,False,13,Offer Declined
+276,Hackathon,Frontend Engineer,79,75,63,74,1.9,76.7,HR Interview,False,19,Poor Communication
+277,Referral,Data Analyst,90,66,81,81,2.9,82.5,HR Interview,False,19,Poor Communication
+278,Campus,Frontend Engineer,59,75,69,65,2.8,64.0,Technical Interview,False,10,Low Assessment Score
+279,Campus,Frontend Engineer,83,65,53,71,0.7,75.8,HR Interview,False,25,Offer Declined
+280,Campus,Backend Engineer,49,80,81,64,1.8,59.7,Technical Interview,False,12,Poor Communication
+281,Referral,ML Engineer,79,63,46,67,3.2,72.2,HR Interview,False,22,Low Assessment Score
+282,LinkedIn,Frontend Engineer,55,63,76,61,0.4,58.4,Technical Interview,False,18,Offer Declined
+283,Referral,ML Engineer,62,62,74,64,1.4,62.6,Technical Interview,False,11,Offer Declined
+284,Campus,Frontend Engineer,59,57,64,59,1.6,58.6,Technical Interview,False,16,Salary Mismatch
+285,Referral,Backend Engineer,76,45,71,65,1.4,66.5,Technical Interview,False,14,Poor Communication
+286,Referral,Data Analyst,89,66,73,78,0.7,81.1,HR Interview,False,21,Poor Communication
+287,Job Portal,Frontend Engineer,66,47,74,61,0.2,60.7,Technical Interview,False,14,Technical Rejection
+288,Hackathon,Backend Engineer,84,86,70,81,1.9,83.5,HR Interview,False,23,Salary Mismatch
+289,Campus,Frontend Engineer,50,67,71,59,1.7,56.1,Assessment Cleared,False,8,Technical Rejection
+290,Hackathon,Data Analyst,60,83,69,68,3.8,67.0,Technical Interview,False,10,Poor Communication
+291,Hackathon,ML Engineer,83,56,66,71,0.6,74.0,HR Interview,False,18,Poor Communication
+292,Referral,Backend Engineer,79,81,83,80,0.8,79.7,HR Interview,False,23,Salary Mismatch
+293,Referral,Frontend Engineer,72,79,61,71,0.4,73.1,HR Interview,False,22,Low Assessment Score
+294,Job Portal,Backend Engineer,60,74,66,65,2.4,64.3,Technical Interview,False,12,Technical Rejection
+295,Job Portal,Data Analyst,56,53,52,54,0.0,54.8,Assessment Cleared,False,8,Technical Rejection
+296,Hackathon,ML Engineer,62,81,65,68,0.0,67.6,Technical Interview,False,15,Technical Rejection
+297,Referral,Data Analyst,82,71,69,76,3.7,78.0,HR Interview,False,19,Salary Mismatch
+298,Referral,Data Analyst,55,78,61,63,2.6,62.0,Technical Interview,False,17,Offer Declined
+299,Referral,Backend Engineer,84,60,69,73,1.9,75.9,HR Interview,False,23,Technical Rejection
+300,Job Portal,ML Engineer,57,82,71,67,0.1,65.0,Technical Interview,False,10,Salary Mismatch
+301,Referral,ML Engineer,70,65,73,69,0.0,68.7,Technical Interview,False,16,Offer Declined
+302,Job Portal,Frontend Engineer,79,68,67,73,0.0,75.0,HR Interview,False,18,Poor Communication
+303,Referral,Data Analyst,74,72,62,71,1.5,72.7,HR Interview,False,22,Technical Rejection
+304,Hackathon,Data Analyst,56,74,90,68,4.5,63.2,Technical Interview,False,13,Low Assessment Score
+305,Referral,ML Engineer,76,62,68,70,0.0,71.4,Technical Interview,False,15,Salary Mismatch
+306,Hackathon,Backend Engineer,69,66,83,70,2.9,68.7,Technical Interview,False,11,Offer Declined
+307,LinkedIn,Data Analyst,63,68,65,64,0.0,64.3,Technical Interview,False,11,Offer Declined
+308,LinkedIn,Backend Engineer,65,85,57,69,1.5,70.2,Technical Interview,False,13,Salary Mismatch
+309,Referral,Backend Engineer,51,61,66,57,0.2,54.8,Assessment Cleared,False,5,Technical Rejection
+310,Job Portal,ML Engineer,84,62,82,77,2.4,77.5,HR Interview,False,25,Salary Mismatch
+311,Job Portal,Backend Engineer,71,71,77,72,1.7,71.3,Technical Interview,False,11,Low Assessment Score
+312,Referral,ML Engineer,64,86,76,73,1.2,71.1,Technical Interview,False,15,Offer Declined
+313,Job Portal,Frontend Engineer,63,77,79,70,0.0,67.9,Technical Interview,False,12,Low Assessment Score
+314,Job Portal,Frontend Engineer,70,53,73,65,2.6,65.1,Technical Interview,False,10,Offer Declined
+315,LinkedIn,Frontend Engineer,65,69,69,67,1.3,66.4,Technical Interview,False,13,Offer Declined
+316,Referral,Frontend Engineer,66,80,57,68,3.0,69.4,Technical Interview,False,10,Technical Rejection
+317,Job Portal,Frontend Engineer,68,65,63,66,1.5,66.8,Technical Interview,False,18,Offer Declined
+318,Referral,Backend Engineer,56,72,53,60,2.3,60.4,Technical Interview,False,11,Low Assessment Score
+319,Job Portal,Frontend Engineer,79,70,77,75,0.0,76.0,HR Interview,False,21,Salary Mismatch
+320,Campus,Backend Engineer,77,50,62,65,3.3,68.0,Technical Interview,False,15,Low Assessment Score
+321,Referral,Backend Engineer,64,83,77,72,1.3,70.2,Technical Interview,False,11,Offer Declined
+322,Referral,Frontend Engineer,89,76,77,82,4.1,84.3,HR Interview,False,21,Low Assessment Score
+323,Job Portal,Backend Engineer,85,59,56,71,0.4,75.6,HR Interview,False,20,Low Assessment Score
+324,Hackathon,Backend Engineer,60,64,52,59,0.1,60.5,Technical Interview,False,12,Offer Declined
+325,Hackathon,Data Analyst,61,67,89,68,1.2,64.3,Technical Interview,False,16,Offer Declined
+326,Referral,ML Engineer,61,76,69,67,0.5,65.8,Technical Interview,False,18,Poor Communication
+327,Hackathon,Data Analyst,62,47,79,60,2.9,58.4,Technical Interview,False,18,Salary Mismatch
+328,Hackathon,Frontend Engineer,48,56,66,54,0.0,51.4,Assessment Cleared,False,7,Low Assessment Score
+329,Job Portal,ML Engineer,68,69,68,68,3.6,68.2,Technical Interview,False,14,Salary Mismatch
+330,Referral,Backend Engineer,68,76,59,68,0.3,69.6,Technical Interview,False,18,Technical Rejection
+331,Campus,Backend Engineer,78,63,93,76,0.6,74.4,HR Interview,False,18,Poor Communication
+332,Hackathon,Frontend Engineer,85,48,66,70,0.0,73.1,HR Interview,False,21,Offer Declined
+333,Referral,Backend Engineer,79,73,61,73,1.4,76.0,HR Interview,False,22,Poor Communication
+334,Hackathon,Data Analyst,86,68,72,77,1.4,79.7,HR Interview,False,22,Technical Rejection
+335,Hackathon,Data Analyst,89,74,47,76,1.0,82.1,HR Interview,False,20,Technical Rejection
+336,Hackathon,Frontend Engineer,80,71,71,75,2.5,76.7,HR Interview,False,25,Low Assessment Score
+337,Campus,Frontend Engineer,69,82,75,74,1.1,73.1,HR Interview,False,24,Offer Declined
+338,Campus,Data Analyst,82,69,71,75,0.1,77.3,HR Interview,False,18,Poor Communication
+339,Campus,Backend Engineer,74,66,80,72,1.1,71.8,Technical Interview,False,11,Offer Declined
+340,LinkedIn,ML Engineer,51,64,85,61,1.2,56.6,Assessment Cleared,False,10,Salary Mismatch
+341,LinkedIn,Backend Engineer,76,70,69,72,2.0,73.6,HR Interview,False,24,Offer Declined
+342,Job Portal,Data Analyst,82,69,57,73,1.1,76.7,HR Interview,False,19,Technical Rejection
+343,LinkedIn,Data Analyst,72,59,83,70,2.6,68.8,Technical Interview,False,16,Poor Communication
+344,Hackathon,ML Engineer,80,75,73,77,0.1,78.1,HR Interview,False,18,Low Assessment Score
+345,LinkedIn,Backend Engineer,59,63,66,61,1.4,60.4,Technical Interview,False,15,Technical Rejection
+346,Referral,ML Engineer,83,80,69,79,2.1,81.2,HR Interview,False,25,Salary Mismatch
+347,LinkedIn,Data Analyst,85,77,61,77,1.6,81.0,HR Interview,False,19,Technical Rejection
+348,LinkedIn,ML Engineer,64,77,64,67,0.8,67.5,Technical Interview,False,15,Poor Communication
+349,LinkedIn,Data Analyst,70,75,69,71,0.2,71.3,Technical Interview,False,15,Offer Declined
+350,Campus,Data Analyst,62,68,67,64,1.1,63.8,Technical Interview,False,18,Low Assessment Score
+351,LinkedIn,Backend Engineer,79,56,74,71,0.0,72.0,HR Interview,False,22,Poor Communication
+352,Campus,Frontend Engineer,71,84,69,74,0.5,74.5,HR Interview,False,19,Salary Mismatch
+353,Hackathon,Backend Engineer,60,51,74,60,0.0,58.2,Technical Interview,False,12,Poor Communication
+354,Hackathon,ML Engineer,71,56,66,65,2.2,66.2,Technical Interview,False,11,Poor Communication
+355,LinkedIn,ML Engineer,48,66,54,54,3.2,53.4,Assessment Cleared,False,5,Salary Mismatch
+356,Hackathon,ML Engineer,64,74,53,64,0.2,66.0,Technical Interview,False,14,Technical Rejection
+357,Job Portal,Data Analyst,69,59,74,67,0.0,66.4,Technical Interview,False,12,Poor Communication
+358,LinkedIn,Data Analyst,71,74,60,69,3.0,71.0,Technical Interview,False,13,Low Assessment Score
+359,Job Portal,Frontend Engineer,49,69,64,58,0.5,55.7,Assessment Cleared,False,5,Technical Rejection
+360,LinkedIn,ML Engineer,78,70,79,75,4.2,75.5,HR Interview,False,22,Poor Communication
+361,Job Portal,Frontend Engineer,69,63,75,68,0.1,67.5,Technical Interview,False,18,Salary Mismatch
+362,Job Portal,Backend Engineer,66,77,74,70,2.0,69.4,Technical Interview,False,16,Poor Communication
+363,Job Portal,Backend Engineer,75,59,70,69,1.0,70.0,Technical Interview,False,18,Technical Rejection
+364,Job Portal,Data Analyst,78,57,50,66,2.7,70.2,Technical Interview,False,15,Poor Communication
+365,Campus,Frontend Engineer,70,46,80,64,2.3,63.4,Technical Interview,False,14,Low Assessment Score
+366,Hackathon,Backend Engineer,61,66,74,65,3.6,63.2,Technical Interview,False,11,Technical Rejection
+367,Campus,Data Analyst,75,59,65,68,2.2,69.7,Technical Interview,False,16,Salary Mismatch
+368,Hackathon,Frontend Engineer,72,76,62,71,3.1,72.5,HR Interview,False,21,Poor Communication
+369,LinkedIn,ML Engineer,48,67,73,58,0.0,54.8,Assessment Cleared,False,6,Poor Communication
+370,Job Portal,Frontend Engineer,72,72,61,69,2.7,71.1,Technical Interview,False,18,Poor Communication
+371,Job Portal,Frontend Engineer,88,69,79,80,0.9,81.8,HR Interview,False,21,Low Assessment Score
+372,Campus,ML Engineer,49,45,76,53,2.0,49.4,Assessment Cleared,False,7,Technical Rejection
+373,LinkedIn,Backend Engineer,83,61,68,73,0.0,75.6,HR Interview,False,22,Technical Rejection
+374,Referral,Frontend Engineer,91,62,69,77,2.7,81.0,HR Interview,False,22,Low Assessment Score
+375,Hackathon,Data Analyst,88,55,57,71,0.7,76.3,HR Interview,False,21,Offer Declined
+376,Job Portal,Backend Engineer,55,68,58,59,2.9,58.8,Technical Interview,False,13,Salary Mismatch
+377,Hackathon,Backend Engineer,70,60,67,66,2.7,66.8,Technical Interview,False,18,Salary Mismatch
+378,Campus,ML Engineer,75,63,82,72,0.9,71.7,Technical Interview,False,13,Salary Mismatch
+379,Referral,ML Engineer,79,75,66,75,1.0,77.0,HR Interview,False,25,Technical Rejection
+380,LinkedIn,Frontend Engineer,62,74,84,70,0.0,66.8,Technical Interview,False,17,Offer Declined
+381,Referral,ML Engineer,97,73,58,82,1.7,87.7,Hired,True,39,No Dropout
+382,LinkedIn,Frontend Engineer,69,69,65,68,0.5,68.7,Technical Interview,False,15,Technical Rejection
+383,Campus,ML Engineer,64,93,66,73,2.1,72.5,HR Interview,False,23,Offer Declined
+384,Campus,Frontend Engineer,70,72,64,69,1.1,70.1,Technical Interview,False,14,Offer Declined
+385,Referral,ML Engineer,83,52,68,70,1.5,72.9,HR Interview,False,23,Salary Mismatch
+386,Campus,Backend Engineer,53,77,85,66,2.3,61.7,Technical Interview,False,11,Salary Mismatch
+387,Campus,Data Analyst,42,59,69,52,1.7,48.4,Assessment Cleared,False,7,Salary Mismatch
+388,Campus,Frontend Engineer,70,57,80,68,2.3,66.8,Technical Interview,False,12,Offer Declined
+389,Hackathon,Frontend Engineer,75,64,73,71,2.2,71.6,Technical Interview,False,14,Salary Mismatch
+390,Job Portal,Data Analyst,64,55,64,61,1.7,61.3,Technical Interview,False,13,Poor Communication
+391,Referral,Frontend Engineer,80,70,78,76,0.5,76.8,HR Interview,False,19,Salary Mismatch
+392,Hackathon,ML Engineer,96,79,64,84,2.1,89.0,Hired,True,30,No Dropout
+393,LinkedIn,Backend Engineer,57,51,65,56,2.7,55.5,Assessment Cleared,False,7,Technical Rejection
+394,Referral,Frontend Engineer,65,57,59,61,0.9,62.2,Technical Interview,False,15,Low Assessment Score
+395,Job Portal,Data Analyst,58,73,69,64,1.5,62.8,Technical Interview,False,14,Offer Declined
+396,Job Portal,Data Analyst,77,68,68,72,2.3,73.7,HR Interview,False,21,Technical Rejection
+397,Job Portal,Frontend Engineer,65,83,59,69,0.0,69.8,Technical Interview,False,11,Technical Rejection
+398,Hackathon,Data Analyst,68,84,73,73,0.3,72.7,HR Interview,False,22,Offer Declined
+399,Hackathon,Frontend Engineer,70,81,70,73,1.7,73.1,HR Interview,False,20,Salary Mismatch
+400,Campus,ML Engineer,63,52,70,61,2.2,60.2,Technical Interview,False,15,Offer Declined
+401,Campus,Frontend Engineer,67,65,83,69,2.5,67.2,Technical Interview,False,14,Technical Rejection
+402,Job Portal,ML Engineer,73,85,76,77,0.0,76.6,HR Interview,False,24,Poor Communication
+403,LinkedIn,ML Engineer,50,72,44,55,1.0,55.9,Assessment Cleared,False,8,Low Assessment Score
+404,Hackathon,Backend Engineer,72,82,75,75,3.9,74.9,HR Interview,False,24,Low Assessment Score
+405,Referral,Data Analyst,66,62,71,65,4.7,64.9,Technical Interview,False,17,Low Assessment Score
+406,Referral,ML Engineer,58,68,57,60,4.2,60.6,Technical Interview,False,15,Poor Communication
+407,Job Portal,ML Engineer,58,79,64,65,0.6,64.3,Technical Interview,False,13,Salary Mismatch
+408,Referral,Data Analyst,88,61,63,74,1.9,78.4,HR Interview,False,23,Offer Declined
+409,Campus,ML Engineer,74,70,68,71,2.4,72.3,HR Interview,False,24,Low Assessment Score
+410,Hackathon,Data Analyst,74,60,67,68,0.0,69.4,Technical Interview,False,13,Technical Rejection
+411,Campus,Data Analyst,59,72,80,67,2.5,64.0,Technical Interview,False,12,Low Assessment Score
+412,Job Portal,ML Engineer,77,75,76,76,0.0,76.3,HR Interview,False,18,Poor Communication
+413,Hackathon,Backend Engineer,99,69,58,81,0.0,87.6,Hired,True,38,No Dropout
+414,Campus,Backend Engineer,72,60,73,68,1.6,68.4,Technical Interview,False,13,Poor Communication
+415,Hackathon,Frontend Engineer,78,79,70,76,3.2,77.6,HR Interview,False,24,Technical Rejection
+416,Campus,Frontend Engineer,64,57,82,65,2.8,62.9,Technical Interview,False,18,Technical Rejection
+417,Hackathon,Frontend Engineer,96,59,40,73,0.2,81.7,HR Interview,False,23,Technical Rejection
+418,Hackathon,ML Engineer,62,76,69,67,0.4,66.3,Technical Interview,False,16,Salary Mismatch
+419,Hackathon,Backend Engineer,35,64,67,50,2.5,45.3,Assessment Cleared,False,6,Technical Rejection
+420,Hackathon,ML Engineer,84,74,73,78,2.3,80.2,HR Interview,False,22,Low Assessment Score
+421,Hackathon,Frontend Engineer,65,65,77,67,2.0,65.6,Technical Interview,False,17,Low Assessment Score
+422,Hackathon,Frontend Engineer,76,69,71,72,0.4,73.4,HR Interview,False,21,Offer Declined
+423,LinkedIn,Data Analyst,59,66,62,61,1.1,61.0,Technical Interview,False,10,Technical Rejection
+424,Hackathon,Backend Engineer,74,76,66,73,1.9,74.1,HR Interview,False,24,Low Assessment Score
+425,Job Portal,Frontend Engineer,65,62,77,66,2.7,64.7,Technical Interview,False,13,Low Assessment Score
+426,Campus,Frontend Engineer,55,88,81,70,2.5,66.1,Technical Interview,False,15,Salary Mismatch
+427,Hackathon,Backend Engineer,73,61,60,66,3.3,68.5,Technical Interview,False,12,Poor Communication
+428,Referral,Data Analyst,87,81,82,84,2.5,84.9,HR Interview,False,22,Salary Mismatch
+429,LinkedIn,Data Analyst,67,68,72,68,2.9,67.5,Technical Interview,False,18,Technical Rejection
+430,Referral,Backend Engineer,58,83,63,66,1.3,65.4,Technical Interview,False,13,Offer Declined
+431,LinkedIn,Backend Engineer,62,73,77,68,0.1,66.0,Technical Interview,False,14,Offer Declined
+432,Hackathon,Backend Engineer,84,61,66,73,1.2,76.1,HR Interview,False,18,Poor Communication
+433,Hackathon,Data Analyst,66,76,74,70,2.4,69.2,Technical Interview,False,14,Low Assessment Score
+434,Campus,Frontend Engineer,85,56,81,75,1.8,76.2,HR Interview,False,23,Poor Communication
+435,LinkedIn,Frontend Engineer,52,66,79,61,0.2,57.5,Assessment Cleared,False,6,Technical Rejection
+436,Campus,Frontend Engineer,60,66,77,65,2.6,62.7,Technical Interview,False,14,Poor Communication
+437,Hackathon,ML Engineer,66,79,74,71,1.3,70.1,Technical Interview,False,10,Offer Declined
+438,Campus,Frontend Engineer,67,49,60,60,0.0,61.3,Technical Interview,False,11,Low Assessment Score
+439,Hackathon,Data Analyst,59,59,64,60,1.0,59.3,Technical Interview,False,11,Technical Rejection
+440,Hackathon,Frontend Engineer,70,58,76,67,0.4,66.7,Technical Interview,False,13,Offer Declined
+441,LinkedIn,Data Analyst,78,65,67,71,0.8,73.3,HR Interview,False,25,Salary Mismatch
+442,Job Portal,ML Engineer,46,75,56,56,0.1,54.8,Assessment Cleared,False,8,Offer Declined
+443,Job Portal,Backend Engineer,71,62,44,62,0.7,66.5,Technical Interview,False,16,Salary Mismatch
+444,Job Portal,Frontend Engineer,80,56,68,70,2.2,72.2,HR Interview,False,20,Offer Declined
+445,LinkedIn,Backend Engineer,76,79,78,77,0.6,76.9,HR Interview,False,25,Poor Communication
+446,Job Portal,ML Engineer,68,65,64,66,3.1,66.8,Technical Interview,False,11,Offer Declined
+447,Campus,Backend Engineer,56,66,72,62,0.1,59.8,Technical Interview,False,18,Poor Communication
+448,Campus,ML Engineer,71,72,70,71,1.1,71.2,Technical Interview,False,17,Low Assessment Score
+449,Referral,ML Engineer,97,68,80,84,1.6,87.3,Hired,True,32,No Dropout
+450,Referral,Frontend Engineer,64,71,69,67,1.4,66.3,Technical Interview,False,18,Poor Communication
+451,Referral,Backend Engineer,75,65,78,72,0.1,72.1,HR Interview,False,19,Low Assessment Score
+452,Job Portal,ML Engineer,70,74,62,69,0.0,70.5,Technical Interview,False,12,Low Assessment Score
+453,LinkedIn,Data Analyst,58,87,76,70,0.0,67.4,Technical Interview,False,14,Low Assessment Score
+454,Campus,Data Analyst,53,65,65,59,0.0,57.2,Assessment Cleared,False,9,Technical Rejection
+455,Campus,Frontend Engineer,59,62,41,56,0.9,58.7,Technical Interview,False,17,Poor Communication
+456,Hackathon,ML Engineer,64,41,71,58,1.5,57.6,Assessment Cleared,False,10,Low Assessment Score
+457,Campus,Data Analyst,52,62,76,59,1.6,56.1,Assessment Cleared,False,7,Technical Rejection
+458,Hackathon,Data Analyst,73,63,65,68,2.5,69.5,Technical Interview,False,10,Salary Mismatch
+459,Campus,Frontend Engineer,86,59,63,73,0.4,76.7,HR Interview,False,25,Low Assessment Score
+460,Hackathon,Data Analyst,56,62,68,60,1.4,58.4,Technical Interview,False,15,Poor Communication
+461,Campus,Backend Engineer,61,76,64,66,1.3,65.5,Technical Interview,False,12,Salary Mismatch
+462,LinkedIn,Data Analyst,57,74,70,64,2.8,62.5,Technical Interview,False,18,Low Assessment Score
+463,Campus,Backend Engineer,72,46,68,63,1.6,64.1,Technical Interview,False,12,Offer Declined
+464,Hackathon,Data Analyst,74,62,81,71,0.0,70.7,Technical Interview,False,12,Offer Declined
+465,Job Portal,Backend Engineer,92,68,65,79,0.0,83.3,HR Interview,False,18,Technical Rejection
+466,Campus,Backend Engineer,58,63,76,63,0.8,60.5,Technical Interview,False,14,Low Assessment Score
+467,Campus,ML Engineer,71,72,81,73,1.1,71.8,Technical Interview,False,18,Salary Mismatch
+468,Referral,Data Analyst,70,65,62,66,3.8,67.8,Technical Interview,False,10,Offer Declined
+469,LinkedIn,Backend Engineer,66,70,59,65,2.7,66.5,Technical Interview,False,17,Salary Mismatch
+470,Referral,Backend Engineer,96,65,65,80,1.6,85.0,Hired,True,39,No Dropout
+471,Job Portal,ML Engineer,71,66,75,70,0.9,69.7,Technical Interview,False,12,Offer Declined
+472,Job Portal,Backend Engineer,70,69,52,66,1.8,68.6,Technical Interview,False,12,Low Assessment Score
+473,Campus,Backend Engineer,71,56,62,64,2.2,65.9,Technical Interview,False,18,Offer Declined
+474,LinkedIn,Data Analyst,74,82,47,71,2.9,74.7,HR Interview,False,21,Low Assessment Score
+475,Hackathon,Frontend Engineer,85,76,68,78,2.0,81.1,HR Interview,False,24,Technical Rejection
+476,LinkedIn,Frontend Engineer,61,80,75,69,1.8,67.2,Technical Interview,False,10,Offer Declined
+477,Hackathon,Data Analyst,60,76,74,67,3.2,65.3,Technical Interview,False,14,Low Assessment Score
+478,Hackathon,Backend Engineer,62,60,80,65,0.0,62.5,Technical Interview,False,18,Technical Rejection
+479,Campus,Backend Engineer,83,52,71,71,3.4,73.2,HR Interview,False,24,Offer Declined
+480,Job Portal,ML Engineer,57,58,73,60,2.6,58.1,Technical Interview,False,12,Poor Communication
+481,LinkedIn,Backend Engineer,66,63,79,67,0.3,65.7,Technical Interview,False,12,Technical Rejection
+482,Job Portal,ML Engineer,52,70,73,61,0.4,58.3,Technical Interview,False,16,Poor Communication
+483,Hackathon,Data Analyst,60,74,53,62,4.0,63.4,Technical Interview,False,15,Low Assessment Score
+484,Referral,Data Analyst,72,68,72,70,1.2,70.6,Technical Interview,False,11,Salary Mismatch
+485,Hackathon,Backend Engineer,58,70,55,61,1.9,61.3,Technical Interview,False,14,Low Assessment Score
+486,Hackathon,Data Analyst,70,55,79,67,2.0,66.1,Technical Interview,False,10,Salary Mismatch
+487,Job Portal,Backend Engineer,68,70,71,69,0.6,68.7,Technical Interview,False,14,Low Assessment Score
+488,Hackathon,ML Engineer,89,59,65,75,0.5,78.8,HR Interview,False,25,Technical Rejection
+489,LinkedIn,Data Analyst,100,65,56,80,0.2,87.0,Hired,True,39,No Dropout
+490,Referral,ML Engineer,56,58,76,60,1.8,57.6,Assessment Cleared,False,5,Offer Declined
+491,Campus,Frontend Engineer,67,51,61,61,1.3,62.0,Technical Interview,False,14,Low Assessment Score
+492,Campus,Frontend Engineer,60,73,47,61,0.9,62.9,Technical Interview,False,15,Salary Mismatch
+493,Campus,Data Analyst,70,60,61,65,0.8,66.5,Technical Interview,False,13,Salary Mismatch
+494,Hackathon,Backend Engineer,62,51,74,61,1.5,59.5,Technical Interview,False,17,Salary Mismatch
+495,Campus,ML Engineer,84,70,81,79,2.1,79.7,HR Interview,False,19,Technical Rejection
+496,Referral,Frontend Engineer,62,50,48,55,0.2,57.5,Assessment Cleared,False,10,Offer Declined
+497,LinkedIn,Frontend Engineer,78,64,52,68,2.6,72.2,HR Interview,False,19,Low Assessment Score
+498,Job Portal,Frontend Engineer,62,71,76,67,1.2,65.3,Technical Interview,False,17,Poor Communication
+499,Job Portal,Backend Engineer,77,81,72,77,3.2,77.8,HR Interview,False,19,Low Assessment Score
+500,LinkedIn,Data Analyst,70,66,56,66,1.5,68.0,Technical Interview,False,16,Salary Mismatch
