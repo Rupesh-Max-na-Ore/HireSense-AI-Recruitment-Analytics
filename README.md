@@ -6,6 +6,10 @@ HireSense AI helps analyze candidate progression, hiring conversion, sourcing ef
 
 ---
 
+## Live Demo
+
+[Streamlit Deployment](https://hiresense-ai-recruitment-analytics-version-001.streamlit.app/)
+
 # Features
 
 - Interactive recruitment funnel analytics
@@ -50,6 +54,15 @@ Streamlit Dashboard
 
 ---
 
+# Example Business Insights
+
+- Referral candidates achieved the highest average hiring performance.
+- Technical interview stages produced the highest candidate attrition.
+- Hiring conversion rate remained highly selective (~2.4%).
+- Strong positive correlations existed between assessment and interview performance.
+
+----
+
 # Dashboard Preview
 
 ## Recruitment Funnel Analysis
@@ -87,7 +100,7 @@ Streamlit Dashboard
 ## Clone Repository
 
 ```bash
-git clone https://github.com/Rupesh-Max-na-Ore/HireSense-AI-Recruitment-Analytics
+git clone https://github.com/Rupesh-Max-na-Ore/HireSense-AI-Recruitment-Analytics.git
 ```
 
 ## Navigate into Project
@@ -174,4 +187,11 @@ This project was designed to explore the intersection of:
 - software engineering,
 - future AI-assisted hiring systems.
 
-The architecture intentionally supports future expansion into ML systems, backend APIs, and AI-driven recruitment intelligence platforms.
+The architecture intentionally supports future expansion into ML systems, backend APIs, and AI-driven recruitment intelligence platforms., see 
+
+
+----
+
+# Links
+
+GitHub repo: https://github.com/Rupesh-Max-na-Ore/HireSense-AI-Recruitment-Analytics Deployed at: https://hiresense-ai-recruitment-analytics-version-001.streamlit.app/
