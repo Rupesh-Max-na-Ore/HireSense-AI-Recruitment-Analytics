@@ -116,17 +116,11 @@ def generate_candidate(candidate_id: int) -> dict:
     )
 
     interview_score = int(
-        (
-            assessment_score * 0.5
-            + communication_score * 0.3
-            + resume_score * 0.2
-        )
+        (assessment_score * 0.5 + communication_score * 0.3 + resume_score * 0.2)
     )
 
     final_score = (
-        assessment_score * 0.5
-        + interview_score * 0.3
-        + communication_score * 0.2
+        assessment_score * 0.5 + interview_score * 0.3 + communication_score * 0.2
     )
 
     application_stage = determine_stage(final_score)
