@@ -26,7 +26,7 @@ def calculate_funnel_metrics(
         current_rank = stage_rank[stage]
 
         count = dataframe[
-            dataframe["application_stage"].map(stage_rank) >= current_rank
+            dataframe["application_stage"].map(stage_rank) <= current_rank
         ].shape[0]
 
         metrics[stage] = count
