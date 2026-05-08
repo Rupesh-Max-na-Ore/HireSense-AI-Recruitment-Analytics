@@ -31,7 +31,31 @@ st.subheader("Recruitment Funnel Analytics Dashboard")
 # Load Dataset
 # =========================
 
-dataframe = load_dataset("data/raw/candidates.csv")
+
+@st.cache_data
+def get_dataset():
+    """
+    Load recruitment dataset with caching.
+    """
+
+    return load_dataset("data/raw/candidates.csv")
+
+
+dataframe = get_dataset()
+
+# =========================
+# Sidebar Filters
+# =========================
+
+st.sidebar.header("Dashboard Filters")
+
+selected_role = st.sidebar.selectbox(
+    "Select Role",
+    ["All"] + sorted(dataframe["role"].unique().tolist()),
+)
+
+if selected_role != "All":
+    dataframe = dataframe[dataframe["role"] == selected_role]
 
 # =========================
 # KPI Calculations

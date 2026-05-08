@@ -3,9 +3,11 @@ from __future__ import annotations
 import pandas as pd
 
 
-def calculate_funnel_metrics(dataframe: pd.DataFrame) -> dict:
+def calculate_funnel_metrics(
+    dataframe: pd.DataFrame,
+) -> dict:
     """
-    Calculate candidate counts across hiring stages.
+    Calculate cumulative recruitment funnel metrics.
     """
 
     funnel_order = [
@@ -16,10 +18,18 @@ def calculate_funnel_metrics(dataframe: pd.DataFrame) -> dict:
         "Hired",
     ]
 
+    stage_rank = {stage: index for index, stage in enumerate(funnel_order)}
+
     metrics = {}
 
     for stage in funnel_order:
-        metrics[stage] = (dataframe["application_stage"] == stage).sum()
+        current_rank = stage_rank[stage]
+
+        count = dataframe[
+            dataframe["application_stage"].map(stage_rank) >= current_rank
+        ].shape[0]
+
+        metrics[stage] = count
 
     return metrics
 
